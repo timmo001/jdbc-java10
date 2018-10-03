@@ -1,18 +1,13 @@
 # node-jdbc
-JDBC API Wrapper for node.js
-
-## Latest Version
-- **0.1.4** - Before upgrading, read the [Major API Refactor](#major-api-refactor)
-section.  This is NOT backwards compatible with the old API.
-- 0.0.15 - Old API.
+JDBC API Wrapper for node.js updated to node Java 0.10.0
 
 ## Installation
-```npm install node-jdbc```
+```npm install jdbc-java10```
 
 Please visit [node-jdbc](https://www.npmjs.org/package/jdbc) for information on installing with npm.
 
 ## Status
-[![Build Status](https://travis-ci.org/CraZySacX/node-jdbc.svg?branch=master)](https://travis-ci.org/CraZySacX/node-jdbc)
+[![Build Status](https://travis-ci.org/timmo001/node-jdbc.svg?branch=master)](https://travis-ci.org/timmo001/node-jdbc)
 
 ## Dependencies
 - [async](https://github.com/caolan/async)
@@ -33,7 +28,7 @@ compile it with such.  All the tests work out of the box on a 1.8 JVM, but I've 
 and classpath setup have to happen before the first java call.  I've created a
 small wrapper (jinst.js) to help out with this.  See below for example
 usage.  I usually add this to every file that may be an entry point.  The
-[unit tests](https://github.com/CraZySacX/node-jdbc/tree/master/test)
+[unit tests](https://github.com/timmo001/node-jdbc/tree/master/test)
 are setup like this due to the fact that order can't be guaranteed.</p>
 
 ```javascript
@@ -194,7 +189,7 @@ module.exports = {
 
 - **Fully Wrapped Connection API**
 <p>The Java Connection API has almost been completely wrapped.  See
-[connection.js](https://github.com/CraZySacX/node-jdbc/blob/master/lib/connection.js)
+[connection.js](https://github.com/timmo001/node-jdbc/blob/master/lib/connection.js)
 for a full list of functions.</p>
 
 ```javascript
@@ -238,7 +233,7 @@ conn.createStatement(function(err, statement) {
 
 ## Usage
 Some mininal examples are given below.  I've also created a
-[node-example-jdbc](https://github.com/CraZySacX/node-jdbc-example) project with more thorough examples.
+[node-example-jdbc](https://github.com/timmo001/node-jdbc-example) project with more thorough examples.
 
 ### Initialize
 ```javascript
