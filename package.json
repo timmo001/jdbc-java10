@@ -4,14 +4,14 @@
   "description": "Node Module JDBC wrapper",
   "main": "index.js",
   "dependencies": {
-    "async": "~1.4",
-    "java": "~0.6",
-    "node-uuid": "~1.4",
-    "lodash": "~3.10"
+    "async": "^2.6.1",
+    "java": "^0.10.0",
+    "lodash": "^4.17.11",
+    "node-uuid": "^1.4.8"
   },
   "devDependencies": {
-    "jshint": "~2.8",
-    "nodeunit": "~0.9"
+    "jshint": "^2.9.6",
+    "nodeunit": "^0.11.3"
   },
   "scripts": {
     "pretest": "bash bin/startdbs",
@@ -34,7 +34,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "Jason Ozias <jason.g.ozias@gmail.com>",
+  "author": "Timmo <contact@timmo.xyz>",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
