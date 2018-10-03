@@ -1,6 +1,6 @@
 {
   "name": "jdbc-java10",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Node Module JDBC wrapper",
   "main": "index.js",
   "dependencies": {
