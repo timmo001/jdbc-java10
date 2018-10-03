@@ -1,26 +1,7 @@
-# node-jdbc
+# jdbc-java10
 JDBC API Wrapper for node.js updated to node Java 0.10.0
 
-## Installation
-```npm install jdbc-java10```
-
-Please visit [node-jdbc](https://www.npmjs.org/package/jdbc) for information on installing with npm.
-
-## Status
-[![Build Status](https://travis-ci.org/timmo001/node-jdbc.svg?branch=master)](https://travis-ci.org/timmo001/node-jdbc)
-
-## Dependencies
-- [async](https://github.com/caolan/async)
-- [node-java](https://github.com/joeferner/node-java)
-- [node-uuid](https://github.com/broofa/node-uuid)
-- [lodash](https://github.com/lodash/lodash)
-
-## Supported Java Versions
-- 1.7
-- 1.8
-
-[node-java](https://github.com/joeferner/node-java) has experiemental support for 1.8, and if you are brave you can
-compile it with such.  All the tests work out of the box on a 1.8 JVM, but I've only wrapped 1.7 functions.
+> Be aware that documentation below may be incorrect as this is a fork of the original project `jdbc-pro` 
 
 ## Major API Refactor
 - **One Instance to Rule Them All (JVM)**
