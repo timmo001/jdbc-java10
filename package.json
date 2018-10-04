@@ -1,6 +1,6 @@
 {
   "name": "jdbc-java10",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Node Module JDBC wrapper updated to Node Java 0.10.0",
   "main": "index.js",
   "dependencies": {
